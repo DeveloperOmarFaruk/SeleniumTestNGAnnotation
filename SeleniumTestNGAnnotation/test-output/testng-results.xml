@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-13T04:57:26 BDT" name="Default suite" finished-at="2023-09-13T04:58:44 BDT" duration-ms="77125">
+    <groups>
+    </groups>
+    <test started-at="2023-09-13T04:57:26 BDT" name="Default test" finished-at="2023-09-13T04:58:44 BDT" duration-ms="77125">
+      <class name="TestNGAnnotationProject.TestNGAnnotationProject">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:26 BDT" name="SetUp" finished-at="2023-09-13T04:57:33 BDT" duration-ms="6427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyUrl()[pri:1, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:33 BDT" name="VerifyUrl" finished-at="2023-09-13T04:57:33 BDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrl -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:33 BDT" name="Close" finished-at="2023-09-13T04:57:33 BDT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:33 BDT" name="SetUp" finished-at="2023-09-13T04:57:38 BDT" duration-ms="4913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyTitle()[pri:2, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:38 BDT" name="VerifyTitle" finished-at="2023-09-13T04:57:38 BDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:38 BDT" name="Close" finished-at="2023-09-13T04:57:38 BDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:38 BDT" name="SetUp" finished-at="2023-09-13T04:57:43 BDT" duration-ms="4920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:3, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:43 BDT" name="TestLogin" data-provider="LoginTestData" finished-at="2023-09-13T04:57:49 BDT" duration-ms="6191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:49 BDT" name="Close" finished-at="2023-09-13T04:57:49 BDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:49 BDT" name="SetUp" finished-at="2023-09-13T04:57:55 BDT" duration-ms="5536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:3, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:57:55 BDT" name="TestLogin" data-provider="LoginTestData" finished-at="2023-09-13T04:58:01 BDT" duration-ms="6215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:58:01 BDT" name="Close" finished-at="2023-09-13T04:58:01 BDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:58:01 BDT" name="SetUp" finished-at="2023-09-13T04:58:07 BDT" duration-ms="5484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestProductPurchase()[pri:4, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:58:07 BDT" name="TestProductPurchase" finished-at="2023-09-13T04:58:43 BDT" duration-ms="36733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestProductPurchase -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:TestNGAnnotationProject.TestNGAnnotationProject@3e694b3f]" started-at="2023-09-13T04:58:43 BDT" name="Close" finished-at="2023-09-13T04:58:44 BDT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- TestNGAnnotationProject.TestNGAnnotationProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
